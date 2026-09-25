@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en" data-theme="ink">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ayush Ummadi — Data Analyst</title>
+<meta name="description" content="Data analyst in Austin, Texas. Ten projects across Python, SQL, Excel, Tableau and Power BI, each one ending in a recommendation.">
+<link rel="canonical" href="https://ayushummadi.github.io/">
+<meta name="theme-color" content="#0F1C2B">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ayushummadi.github.io/">
+<meta property="og:title" content="Ayush Ummadi — Data Analyst">
+<meta property="og:description" content="Data analyst in Austin, Texas. Ten projects across Python, SQL, Excel, Tableau and Power BI, each one ending in a recommendation.">
+<meta property="og:image" content="https://ayushummadi.github.io/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ayush Ummadi — Data Analyst">
+<meta name="twitter:description" content="Data analyst in Austin, Texas. Ten projects across Python, SQL, Excel, Tableau and Power BI, each one ending in a recommendation.">
+<meta name="twitter:image" content="https://ayushummadi.github.io/assets/og-image.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap navbar">
+    <a class="brand" href="#top">Ayush Ummadi</a>
+    <button class="menu" id="menuBtn" type="button" aria-expanded="false" aria-controls="navlinks" aria-label="Open menu"><span></span></button>
+    <nav class="navlinks" id="navlinks" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a class="cta" href="#contact">Contact</a>
+      <div class="switch" role="group" aria-label="Colour theme">
+        <button type="button" data-set="ink" aria-pressed="true">Ink</button>
+        <button type="button" data-set="paper" aria-pressed="false">Paper</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1 class="sr-only">Ayush Ummadi</h1>
+    <canvas id="nameCanvas" aria-hidden="true"></canvas>
+    <svg class="baseline" id="baseline" aria-hidden="true" preserveAspectRatio="none"></svg>
+    <p class="avail"><span class="dot" aria-hidden="true"></span>Available for full-time data analyst roles</p>
+    <p class="statement">Finding the number is half the job. <span class="soft">Knowing what to do with it is the other half.</span></p>
+    <p class="dek">Data analyst with a master's in computer science and ten projects across Python, SQL, Excel, Tableau and Power BI. Based in Austin, Texas, and open to relocating.</p>
+    <div class="actions">
+      <a class="btn" href="#work">See the work</a>
+      <a class="btn ghost" href="assets/Ayush_Ummadi_Data_Analyst_Resume.pdf" download="Ayush_Ummadi_Data_Analyst_Resume.pdf">Download resume</a>
+      <span class="meta-links">
+        <a href="https://github.com/AyushUmmadi">GitHub</a>
+        <a href="https://www.linkedin.com/in/ayush-ummadi/">LinkedIn</a>
+        <a href="mailto:ummadiayush@yahoo.com">Email</a>
+      </span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="band" id="about">
+    <div class="wrap">
+      <div class="rule-row"><span class="label">About</span><span class="line"></span></div>
+      <div class="about-grid">
+        <div class="about">
+          <p class="lead">Hey, I'm Ayush. Most weekends I'm somewhere outside with a camera, a kayak or a pair of hiking boots. The rest of the week I'm doing a version of the same thing, just with data.</p>
+          <p>That's more or less how I landed in analytics. I studied computer science, the data classes were the ones I actually looked forward to, and I kept pulling that thread: a machine learning internship forecasting support ticket volume, a stint at NTT DATA keeping data moving cleanly between enterprise systems, then a master's at the University of Georgia.</p>
+          <p>What stuck is the last mile. Getting to the right number is the easy part. The useful part is saying what the business should do about it on Monday, in plain words nobody needs a dashboard to decode. So every project here ends with a recommendation.</p>
+          <p class="quiet">I'm based in Austin and happy to relocate. Wherever the work is, basically.</p>
+        </div>
+        <figure class="portrait">
+          <img src="assets/portrait.jpg" alt="Ayush Ummadi" width="760" height="950">
+          <figcaption>Times Square, December 2024.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="approach">
+    <div class="wrap">
+      <h2 class="sr-only">How I work</h2>
+      <div class="rule-row"><span class="label">How I work</span><span class="line"></span></div>
+      <ol class="steps">
+        <li class="step">
+          <span class="n">1</span>
+          <h3>Start with the decision</h3>
+          <p>Before any code, write down what someone should be able to do differently once this is finished.</p>
+        </li>
+        <li class="step">
+          <span class="n">2</span>
+          <h3>Clean it honestly</h3>
+          <p>Most of the time goes here. Missing values, redundant columns, sensible types, then into a database where SQL can reach it.</p>
+        </li>
+        <li class="step">
+          <span class="n">3</span>
+          <h3>Ask real questions</h3>
+          <p>A handful of queries aimed at the business question beats forty charts nobody asked for.</p>
+        </li>
+        <li class="step">
+          <span class="n">4</span>
+          <h3>End with a recommendation</h3>
+          <p>Say what to do, what it rests on, and what the data cannot tell you. That last part matters.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band" id="work">
+    <div class="wrap">
+      <div class="rule-row"><span class="label">Featured analysis</span><span class="line"></span></div>
+      <article class="case">
+        <h2>Customer Shopping Behaviour Analysis</h2>
+        <p class="sub">3,900 customer records cleaned in Python, loaded into PostgreSQL, questioned with ten SQL queries, and delivered as a Power BI dashboard, a written report and a stakeholder deck.</p>
+
+        <div class="brief">
+          <span class="label">The brief</span>
+          <p>How can a retailer use its shopping data to spot trends, improve customer engagement and sharpen marketing and product strategy?</p>
+        </div>
+
+        <ul class="stats">
+          <li><span class="n">3,900</span><span class="k">customers analysed</span></li>
+          <li><span class="n">$233K</span><span class="k">total revenue</span></li>
+          <li><span class="n">$59.76</span><span class="k">average purchase</span></li>
+        </ul>
+
+        <ul class="pipe">
+          <li>Python, pandas</li><li class="sep" aria-hidden="true"></li>
+          <li>PostgreSQL</li><li class="sep" aria-hidden="true"></li>
+          <li>SQL, 10 queries</li><li class="sep" aria-hidden="true"></li>
+          <li>Power BI</li><li class="sep" aria-hidden="true"></li>
+          <li>Report and deck</li>
+        </ul>
+
+        <div class="pairs" id="pairs">
+          <div class="pair">
+            <p class="found">Clothing and Accessories bring in 76.5% of the $233K in revenue.</p>
+            <p class="rec"><span class="label">What I'd do</span>Keep both well stocked and prominent, and grow Footwear and Outerwear by bundling them with the two categories people already come for.</p>
+          </div>
+          <div class="pair">
+            <p class="found">Subscribers spend slightly less per order than non-subscribers, $59.49 against $59.87, and 72% of repeat buyers have never subscribed.</p>
+            <p class="rec"><span class="label">What I'd do</span>Make the subscription earn its place with free express shipping or member-only bundles, and aim it at the 2,518 repeat buyers who never signed up.</p>
+          </div>
+          <div class="pair">
+            <p class="found">Spend per order barely moves. Across gender, category, age group, shipping type and subscription status, the average purchase sits between $57 and $61.</p>
+            <p class="rec"><span class="label">What I'd do</span>Stop trying to lift the average order through segments and grow basket size instead: bundles, cross-selling, and a free-shipping threshold just above the current average.</p>
+          </div>
+          
+        </div>
+
+        <p class="caveat">One caveat I would say out loud in an interview: this is a snapshot of each customer's latest purchase with no dates attached, so everything above is a relationship rather than a cause. The full report lists the rest.</p>
+
+        <div class="case-links">
+          <a href="https://github.com/AyushUmmadi/customer-shopping-behaviour-analysis">View the repo on GitHub</a>
+          <a href="https://github.com/AyushUmmadi/customer-shopping-behaviour-analysis/blob/main/reports/Customer_Shopping_Behaviour_Report.pdf">Read the full report</a>
+          <a href="https://github.com/AyushUmmadi/customer-shopping-behaviour-analysis/blob/main/reports/Customer_Shopping_Behaviour_Presentation.pdf">See the stakeholder deck</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="band" id="projects">
+    <div class="wrap">
+      <h2 class="sr-only">More projects</h2>
+      <div class="rule-row"><span class="label">More projects</span><span class="line"></span></div>
+      <p class="lede">Nine more, grouped by the tool they were built with. Open one for what the data showed and what I would do about it.</p>
+
+      <div class="group">
+        <div class="group-head"><span class="g">SQL</span><span class="c">2 projects</span></div>
+        <div class="projects">
+          <details class="project">
+            <summary>
+              <span class="t">Sales and Revenue Analysis<span class="s">Three years of orders for a scale-model vehicle company, in MySQL</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">2,823 line items across 307 orders, worked through with CTEs and window functions: revenue trends, product lines, customer behaviour and order operations.</p>
+                <p class="found">November is the highest-revenue month in every year of the data, and Classic Cars alone account for $3.92M of the $10.03M total.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/sales-revenue-analysis-sql">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>Plan stock and staffing around the November peak and protect the Classic Cars line. Sweden's 28% cancellation and dispute rate deserves a look too, with the caveat that only 57 orders sit behind it.</p>
+            </div>
+          </details>
+          <details class="project">
+            <summary>
+              <span class="t">Customer Segmentation, RFM<span class="s">50 customers sorted into value tiers with CTEs, NTILE and reusable views</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">RFM scoring across 247 transactions, sorting customers into Champions, Loyal, At Risk, New and Lost, then profiling each segment by demographics and product category.</p>
+                <p class="found">At Risk customers hold the largest revenue pool at $7,830, and they haven't bought in an average of 253 days.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/customer-segmentation-rfm-sql">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>Spend the re-engagement budget here first. It's the biggest pot of money sitting closest to the exit, while the Loyal segment is steady enough to leave alone for a quarter.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><span class="g">Tableau</span><span class="c">1 project</span></div>
+        <div class="projects">
+          <details class="project">
+            <summary>
+              <span class="t">Superstore Sales Dashboard<span class="s">9,994 orders, live on Tableau Public with year, state and category filters</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">Sales by state on a choropleth, sales against profit over time, discount and profit distributions, and category donuts, covering 2014 to 2017.</p>
+                <p class="found">Most revenue comes from orders with little or no discount. The heavily discounted tail contributes far less.</p>
+                <div class="links"><a href="https://public.tableau.com/views/SalesDashboard_17891478182300/Dashboard1">Open the live dashboard</a><a href="https://github.com/AyushUmmadi/superstore-sales-tableau-dashboard">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>Before widening discounts, check what that heavy tail is actually buying. On this data it reads as margin given away rather than volume bought.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><span class="g">Excel</span><span class="c">2 projects</span></div>
+        <div class="projects">
+          <details class="project">
+            <summary>
+              <span class="t">Sales Executive Performance Dashboard<span class="s">141 executives across 8 regions, every view driven by one slicer</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">Five days of sales against target, built as linked pivot tables and charts that all re-cut together from a single region slicer.</p>
+                <p class="found">The average target hit rate is 55.2%, with individuals running from 77.8% down to 28.6%.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/sales-executive-performance-dashboard">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>When half the floor misses the number, the target usually deserves scrutiny before the people do. Check how it was set, then coach against the spread rather than the average.</p>
+            </div>
+          </details>
+          <details class="project">
+            <summary>
+              <span class="t">Bakery Sales Analysis<span class="s">700 orders over 16 months, with pivot tables and a forecast</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">Excel functions, pivot tables and a demand forecast across product performance, profitability and seasonal demand.</p>
+                <p class="found">One customer is 32% of revenue, and the top two together are 57% of it.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/bakery-sales-excel-analysis">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>Treat this as concentration risk, not a success story. Protect those two accounts and grow the other three before one departure takes a third of the business.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="group-head"><span class="g">Python</span><span class="c">4 projects</span></div>
+        <div class="projects">
+          <details class="project">
+            <summary>
+              <span class="t">Black Friday Sales Analysis<span class="s">537,577 transactions explored in Pandas</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">Gender, age, marital status, occupation and city category tested against what people actually spend.</p>
+                <p class="found">Unmarried men aged 26 to 35 are the largest segment in almost every cut, and men account for roughly 77% of total purchase value.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/black-friday-sales-analysis">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>Stock and staff for that segment, then target with occupation rather than gender, since occupation separates customers by both spend and the variety of products they buy.</p>
+            </div>
+          </details>
+          <details class="project">
+            <summary>
+              <span class="t">GDP Analysis<span class="s">World Bank data, 1960 to 2016, with interactive Plotly charts</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">A growth metric derived from the raw figures across 256 countries and regions, plus a reusable function for comparing any set of countries.</p>
+                <p class="found">Only 120 of the 256 have complete coverage across the period, and the sparse ones throw out wildly overstated growth rates.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/gdp-analysis">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>Filter to complete-coverage countries before ranking growth. Otherwise the leaderboard is an artefact of missing data rather than a finding.</p>
+            </div>
+          </details>
+          <details class="project">
+            <summary>
+              <span class="t">Sugarcane Production EDA<span class="s">Global production by country and continent</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">Production volume, land use and yield per hectare, compared across countries and continents.</p>
+                <p class="found">Production tracks acreage almost perfectly, a correlation of 0.998, while yield per hectare barely relates to total output at 0.13.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/sugarcane-production-eda">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>If the goal is total volume, land is the lever. Yield leaders like Guatemala are the interesting case for efficiency programmes, not for output targets.</p>
+            </div>
+          </details>
+          <details class="project">
+            <summary>
+              <span class="t">Heart Disease Visualisation Techniques<span class="s">918 patients, each chart type chosen for the question it answers</span></span>
+              <span class="plus" aria-hidden="true"></span>
+            </summary>
+            <div class="detail">
+              <div>
+                <p class="desc">Distributions, violin plots, a correlation heatmap and a pairplot over the UCI heart disease dataset.</p>
+                <p class="found">172 of the 918 cholesterol readings are recorded as zero, which is missing data rather than a real measurement.</p>
+                <div class="links"><a href="https://github.com/AyushUmmadi/heart-disease-visualization-techniques">View the repo</a></div>
+              </div>
+              <p class="rec"><span class="label">What I'd do</span>Flag it before anyone models on this data. Treating those zeros as real readings would drag every cholesterol conclusion downwards.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="band" id="skills">
+    <div class="wrap">
+      <h2 class="sr-only">Skills</h2>
+      <div class="rule-row"><span class="label">Skills</span><span class="line"></span></div>
+      <p class="lede">The tools, and the projects on this page where each one did real work.</p>
+
+      <div class="proof">
+        <div class="row">
+          <span class="skill">Python</span>
+          <p class="where">Customer Shopping Behaviour, Black Friday, GDP Analysis, Sugarcane Production, Heart Disease. Pandas for cleaning and reshaping, Matplotlib, Seaborn and Plotly for the charts.</p>
+        </div>
+        <div class="row">
+          <span class="skill">SQL</span>
+          <p class="where">Customer Shopping Behaviour in PostgreSQL, Sales and Revenue and RFM Segmentation in MySQL. Joins, CTEs, Window Functions, NTILE and reusable views.</p>
+        </div>
+        <div class="row">
+          <span class="skill">Excel</span>
+          <p class="where">Bakery Sales, Sales Executive Performance Dashboard, and the Excel workbook in the capstone. PivotTables, Slicers, VLOOKUP/XLOOKUP and Power Query.</p>
+        </div>
+        <div class="row">
+          <span class="skill">Power BI</span>
+          <p class="where">The Customer Shopping Behaviour dashboard, built on a PostgreSQL table with slicers for subscription, gender, category and shipping.</p>
+        </div>
+        <div class="row">
+          <span class="skill">Tableau</span>
+          <p class="where">The Superstore dashboard, live on Tableau Public with year, state and category filters.</p>
+        </div>
+      </div>
+
+      <div class="kit">
+        <div>
+          <h3>Working with Data</h3>
+          <p>Data Cleaning and Preprocessing, Exploratory Data Analysis, Hypothesis Testing, Customer Segmentation (RFM), Data Storytelling.</p>
+        </div>
+        <div>
+          <h3>Libraries</h3>
+          <p>Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly.</p>
+        </div>
+        <div>
+          <h3>Environment</h3>
+          <p>Jupyter Notebook, PostgreSQL, MySQL, Git and GitHub, Jira, Google Sheets.</p>
+        </div>
+        <div>
+          <h3>From the Day Job</h3>
+          <p>SAP Analytics Cloud, SAP BTP, CPI and PI/PO Integration, ARIMA Time-Series Forecasting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="experience">
+    <div class="wrap">
+      <h2 class="sr-only">Experience</h2>
+      <div class="rule-row"><span class="label">Experience</span><span class="line"></span></div>
+      <div class="cv">
+        <div class="item">
+          <span class="when">Aug &ndash; Oct 2025</span>
+          <div>
+            <h3>SAP Technical Intern</h3>
+            <p class="org">Mygo Consulting, Naperville, IL</p>
+            <p class="what">Built dashboards and analytical stories in SAP Analytics Cloud during hands-on training on SAP Business Technology Platform, and documented system behaviour, data flows and configuration workflows for the consultants I worked under.</p>
+          </div>
+        </div>
+        <div class="item">
+          <span class="when">Oct 2022 &ndash; Jun 2023</span>
+          <div>
+            <h3>Associate Consultant, SAP Cloud Platform Integration</h3>
+            <p class="org">NTT DATA Business Solutions, Hyderabad, India</p>
+            <p class="what">Cut data integration error rates by around 25% by tracing and fixing pipeline failures between cloud and on-premise systems, and reduced reprocessing and manual fixes by around 15% by tuning interfaces and message mappings. Unglamorous work, and it's where I learned what bad data costs everyone downstream.</p>
+          </div>
+        </div>
+        <div class="item">
+          <span class="when">Mar &ndash; Jun 2022</span>
+          <div>
+            <h3>Machine Learning Intern</h3>
+            <p class="org">NTT DATA Business Solutions, Hyderabad, India</p>
+            <p class="what">Forecast support ticket volume with 85% accuracy using an ARIMA model in Python, then turned the output into visual reports that fed staffing and capacity planning decisions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="education">
+    <div class="wrap">
+      <h2 class="sr-only">Education</h2>
+      <div class="rule-row"><span class="label">Education</span><span class="line"></span></div>
+      <div class="cv">
+        <div class="item">
+          <span class="when">Graduated May 2025</span>
+          <div>
+            <h3>MS, Computer Science</h3>
+            <p class="org">University of Georgia, Athens, GA</p>
+            <p class="what">Coursework in algorithms, database design, data mining, deep learning and distributed computing systems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="certifications">
+    <div class="wrap">
+      <h2 class="sr-only">Certifications</h2>
+      <div class="rule-row"><span class="label">Certifications</span><span class="line"></span></div>
+      <ul class="certs">
+        <li><span class="name">Certified Data Analyst Associate</span><span class="by">Databricks</span></li>
+        <li><span class="name">Data Analysis with Python</span><span class="by">freeCodeCamp</span></li>
+        <li><span class="name">Data Analysis in Tableau Desktop</span><span class="by">Salesforce Trailhead</span></li>
+        <li><span class="name">Introduction to Transact-SQL</span><span class="by">Microsoft</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2 class="sr-only">Contact</h2>
+      <p class="close">If something here lines up with a problem you're working on, I'd like to hear about it.</p>
+      <p class="where">Based in Austin, Texas, and open to relocating. Entry-level data analyst roles, any industry.</p>
+      <ul class="ways">
+        <li><a href="mailto:ummadiayush@yahoo.com">ummadiayush@yahoo.com</a></li>
+        <li><a href="https://www.linkedin.com/in/ayush-ummadi/">LinkedIn</a></li>
+        <li><a href="https://github.com/AyushUmmadi">GitHub</a></li>
+        <li><a href="assets/Ayush_Ummadi_Data_Analyst_Resume.pdf" download>Resume, PDF</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="wrap">
+      <div class="inner">
+        <span>Ayush Ummadi, Austin, Texas.</span>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
