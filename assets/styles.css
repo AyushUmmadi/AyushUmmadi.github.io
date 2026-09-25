@@ -170,8 +170,7 @@
   .about p.lead{ font-family:"Newsreader", Georgia, serif; font-size:1.28rem; line-height:1.5 }
   .about .quiet{ color:var(--ink-2) }
   figure.portrait{ margin:0 }
-  figure.portrait img{ width:100%; max-width:230px; border-radius:5px; border:1px solid var(--rule) }
-  @media (min-width:900px){ figure.portrait img{ max-width:15.5rem } }
+  figure.portrait img{ width:100%; max-width:230px; height:auto; aspect-ratio:4/5; object-fit:cover; border-radius:5px; border:1px solid var(--rule) }  @media (min-width:900px){ figure.portrait img{ max-width:15.5rem } }
   figure.portrait figcaption{
     margin-top:.6rem; font-family:"Newsreader", Georgia, serif; font-style:italic;
     font-size:.92rem; color:var(--ink-2);
